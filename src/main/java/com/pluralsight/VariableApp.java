@@ -13,6 +13,17 @@ public class VariableApp {
         System.out.println("My middle initial name is: " + middleNameI);
         System.out.println("Do you have any pets?: " + pets);
         System.out.println(message);
+        System.out.println("");
+
+        int daysWeek = 7;
+        double coffeePrice = 4.99;
+        char favLetter = 'G';
+        boolean raining = true;
+
+        System.out.println("There are " + daysWeek + " days on the week.");
+        System.out.println("The price of the Latte is: " + coffeePrice);
+        System.out.println("My favorite letter is: " + favLetter);
+        System.out.println("Is it raining?: " + raining);
 
     }
 }
